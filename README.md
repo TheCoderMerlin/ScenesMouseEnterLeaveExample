@@ -1,6 +1,4 @@
-# ScenesShellBasic
+# ScenesMouseEnterLeaveExample
 
-A basic shell to serve as a starting point for using Scenes.
-It includes a MainScene, three Layers, and one Background object
-but is otherwise empty.
+This project demonstrates the use of the EntityMouseEnter and EntityMouseLeave events.
 
