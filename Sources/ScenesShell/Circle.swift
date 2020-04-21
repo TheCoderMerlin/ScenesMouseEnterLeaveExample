@@ -37,7 +37,7 @@ class Circle : RenderableEntity, EntityMouseEnterHandler,  EntityMouseLeaveHandl
     }
 
     override func hitTest(globalLocation:Point) -> Bool {
-        return globalLocation.distance(target:circle.center) <= Double(circle.radiusX)
+        return globalLocation.distance(to: circle.center) <= Double(circle.radiusX)
     }
 
     override func render(canvas:Canvas) {
